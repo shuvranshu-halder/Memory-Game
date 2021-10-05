@@ -7,8 +7,8 @@ var match=0;
 let lockboard=false;
 
 cards.forEach(card=>{
-    // let randomnumb= Math.floor(Math.random()*12);
-    // card.style.order=randomnumb;
+    let randomnumb= Math.floor(Math.random()*12);
+    card.style.order=randomnumb;
     card.addEventListener('click',flipandcheckCard)
 })
 
